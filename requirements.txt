@@ -1,0 +1,32 @@
+# Core Libraries
+numpy==1.24.3               # Numerical computations
+matplotlib==3.7.2           # Plotting for visualizations
+
+# Image Processing
+opencv-python==4.8.0.74     # Core OpenCV library for image processing
+opencv-python-headless==4.8.0.74  # Headless version of OpenCV for servers
+
+# Object Detection
+torch==2.0.1                # PyTorch for YOLO-based object detection
+torchvision==0.15.2         # PyTorch library for vision models
+ultralytics==8.0.121        # YOLOv8 library for object detection and tracking
+
+# Optical Character Recognition (OCR)
+pytesseract==0.3.10         # Wrapper for Tesseract OCR
+easyocr==1.7.0              # EasyOCR for number plate recognition
+
+# Image Extraction and Preprocessing
+scikit-image==0.21.0        # Image processing algorithms
+pillow==9.4.0               # Image processing library (PIL fork)
+
+# Machine Learning Utilities
+scikit-learn==1.3.1         # ML utilities, such as preprocessing and evaluation
+pandas==2.1.2               # Data manipulation and analysis
+
+# Web Application Tools
+flask==2.3.2                # Flask for building web applications
+streamlit==1.25.0           # Streamlit for interactive web apps
+
+# ATCC-Specific Tools
+tqdm==4.65.0                # Progress bar for tasks
+seaborn==0.12.3             # Advanced data visualizations for analysis
